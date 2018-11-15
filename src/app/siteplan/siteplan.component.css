@@ -171,7 +171,7 @@
 }
 
 .backImg {
-    background-image: url(https://images4.alphacoders.com/835/thumb-1920-83504.png);
+    background-image: url(http://www.galerie-pour-tous.fr/image/espace/618-_galaxie_by_parkuhrwaechter.jpg);
     background-repeat: no-repeat;
     background-attachment:fixed;
     -webkit-background-size: cover;
@@ -191,7 +191,7 @@
   }
 
 .Titre-de-la-page{
-    font-size: 80px;
+    font-size: 325%;
     font-family: 'Orbitron', sans-serif;
     padding-top: 30px;
 }
