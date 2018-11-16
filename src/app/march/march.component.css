@@ -121,7 +121,10 @@ section {
   .card-text li {
 	  font-size: 1.3rem;
   }
-	  
+
+  #allCards{
+	  padding-bottom: 0px
+  }
 	  
   
   
@@ -134,7 +137,7 @@ section {
 	  -webkit-perspective: 800;
 	  height: 300px;
 	  padding-top: 46px;
-	  margin :auto;
+	  margin: auto;
   }
   
   #allPlan {
@@ -144,28 +147,35 @@ section {
 	-webkit-animation: Caroussel 120s infinite linear;
 	position: absolute;
 	left: 40%;
+	
    
  }
   .block-carousel {
 	  margin: 100% 100%;
-  
   }
   
   .block-caroussel img {
-	 overflow: hidden;
 	 width: 100%;
 	 height:100%;
-	 border-radius: 10%;
+	 border-radius: 10px;
+   }
+   #carouselGyro{
+	   overflow: hidden;
+	   height: 550px;
+	   padding-top: 100px;
+	   padding-bottom: 100px
    }
   
   .plan {
 	  position: absolute;
-	  height: 100%;
-	  width: 100%;
+	  height: 200px;
+	  width: 150px;
 	  text-align: center;
 	  font-size: 8em;
 	  color: #fff;
 	  background-color: rgba(0,0,0,0.01); 
+	  overflow: hidden;
+	  border-radius: 10px
   }
   
   @-webkit-keyframes Caroussel {
@@ -186,9 +196,14 @@ section {
   /*___________________ MEDIA QUERIES _______________________*/
   
   @media screen and (max-width: 576px) {
+	.titre-page-article{
+		font-size: 300% ;
+	}
+	.navigation-actualite{
+		font-size:70%;
+	}
   
 	  #allPlan {
-	  
 		  margin:auto;
 		  -webkit-transform-style: preserve-3D;
 		 -webkit-animation: Caroussel 50s infinite linear;
